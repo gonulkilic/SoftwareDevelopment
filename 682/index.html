@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Home</title>
+        <link href="./css/style.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="./js/check.js"></script>
+    </head>
+    <body>
+        <div class="login">
+            <br/><br/>
+            <h2>IDM Sytems</h2>
+            <div class="login-top">
+                <h1>USER LOGIN</h1>
+                <form action="./login/Login.php" method="post" onsubmit="return checkLoginInput()">
+                    <input type="text" id="usr" value="Username" name="Username"
+                        onfocus="this.value = ''">
+                    <input type="password" id="pwd" placeholder="Password" name="Password" onfocus="this.value = ''">
+                    <div class="forgot">
+                        <input type="submit" value="Login">
+                    </div>
+            </div>
+            <div class="login-bottom">
+            </div>
+        </div>
+        </form>
+
+    </body>
+</html>
